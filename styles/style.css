@@ -15,7 +15,7 @@
 .logo-color{
     color: #4E47FF;
 }
-.little-text{
+.dull-text{
    color:#252432
 }
 
@@ -74,12 +74,14 @@ transition: 0.3s;
     max-width: 907px;
     text-align: center;
     margin: 158px auto;
+ 
 }
 .banner .banner-title h1{
     font-size: 65px;
     font-weight: bold;
 }
 .banner .banner-title button{
+
     margin-top: 40px;
         color: white;
     font-weight: bold;
@@ -95,3 +97,58 @@ transition: 0.3s;
  color: black;
     border: 1px solid #4E47FF;
 }
+
+
+/* main section starts here */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 116px;
+    
+}
+
+/* action styles */
+main .action{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.action{
+        max-width: 1320px;
+        margin: 0 auto;
+}
+.action .action-title{
+    width: 516px;
+}
+
+.action .action-title h1{
+    font-size: 42px;
+}
+.action .action-title p{
+    font-size: 24px;
+  
+}
+.action .action-title button{
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+background-color: #4E47FF;
+padding: 16px 30px;
+border-radius: 10px;
+border: none;
+transition: 0.3s;
+margin-top: 20px;
+
+}
+.action .action-title button:hover{
+      cursor: pointer;
+    background-color: transparent;
+ color: black;
+    border: 1px solid #4E47FF;
+}
+.action  img{
+    width: 403px;
+    border-radius: 50px;
+}
+
+/* user section styles */
