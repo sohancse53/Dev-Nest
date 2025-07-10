@@ -25,6 +25,9 @@
   padding: 0;
   list-style-type: none;
 }
+body{
+    background-color: #F5F8FF;
+}
 /* shared styles */
 
 
@@ -246,4 +249,100 @@ font-weight: 400;
 font-size: 14px;
 color: black;
 font-weight: 200;
+}
+
+
+
+/* get started section styles */
+.get-started{
+ max-width: 1320px;
+ margin: 0 auto;
+ padding: 100px 0;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.get-started h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.get-started p{
+    font-size: 16px;
+    font-weight: 300;
+}
+.get-started button{
+       font-size: 16px;
+    color: white;
+    font-weight: 300;
+background-color: #4E47FF;
+padding: 16px 30px;
+border-radius: 10px;
+border: none;
+transition: 0.3s;
+}
+.get-started button:hover{
+      cursor: pointer;
+    background-color: transparent;
+ color: black;
+    border: 1px solid #4E47FF;
+}
+
+.get-started img{
+    border-radius: 48px;
+}
+
+
+/* form section */
+.form-fillup{
+    max-width: 1320px;
+    margin: 120px auto;
+    padding: 70px 0;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+   
+}
+.form-fillup h1{
+    font-size: 100px;
+    font-weight: bold;
+}
+.form-fillup form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form-fillup form label{
+    font-size: 18px;
+}
+
+.form-fillup form input,textarea{
+    width: 500px;
+    padding: 20px 32px;
+    border-radius: 10px;
+    outline:none;
+    border: 1px solid rgba(128, 128, 128, 0.192);
+    color: #000000;
+    font-size: 16px;
+}
+
+.form-fillup form button{
+        width: 100%;
+    padding: 20px 32px;
+    border-radius: 10px;
+    border: none;
+    background-color: #4E47FF;
+    color: white;
+    font-size: 16px;
+        font-size: 16px;
+        transition: 0.3s;
+}
+.form-fillup form button:hover{
+      cursor: pointer;
+    background-color: transparent;
+ color: black;
+    border: 1px solid #4E47FF;
 }
