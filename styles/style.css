@@ -1,5 +1,5 @@
 /* fonts */
-.inter-normal {
+.inter{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -110,7 +110,7 @@ main{
 /* action styles */
 main .action{
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
 align-items: center;
 }
 .action{
@@ -152,3 +152,98 @@ margin-top: 20px;
 }
 
 /* user section styles */
+.user{
+    max-width: 1320px;
+    height: 310px;
+    margin: 120px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7FF;
+    border-radius: 10px;
+}
+.user h1{
+    font-size: 38px;
+}
+.user .user-child{
+    display: flex;
+    justify-content: space-between;
+    width: 856px;
+    margin-top: 40px;
+}
+.user .user-child .user-grand-child{
+width: 200px;
+text-align: center;
+}
+.user .user-child .user-grand-child h1{
+    font-size: 80px;
+
+
+}
+.user .user-child .user-grand-child h4{
+font-size: 20px;
+font-weight: 300;
+}
+
+
+/* feedback section styles */
+.feedback{
+    max-width: 1320px;
+margin: 120px auto;
+
+}
+.feedback h1{
+    font-size: 42px;
+    font-weight: bold;
+    width: 100%;
+   
+    text-align: center;
+}
+.feedback .cards{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards .card{
+    width: 300px;
+    padding: 30px;
+border: 1px solid rgba(128, 128, 128, 0.137);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.cards .card .identity{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+
+}
+.cards .card h4{
+    font-size: 20px;
+}
+.cards .card p{
+    font-size: 16px;
+    opacity: 80%;
+}
+.cards .card .identity img{
+    border-radius:50%;
+}
+
+
+.cards .card .identity .names h5{
+font-size: 16px;
+color: black;
+font-weight: 400;
+}
+.cards .card .identity .names h6{
+font-size: 14px;
+color: black;
+font-weight: 200;
+}
